@@ -367,6 +367,35 @@ E-Commerce-Sales-Customer-Analytics
 │   └── ecommerce_sales_customer_analytics.pbix
 │
 ├── screenshots
+│   │
+│   ├── python
+│   │   ├── 01_raw_dataset_preview.png
+│   │   ├── 02_raw_dataset_information.png
+│   │   ├── 03_missing_values_analysis.png
+│   │   ├── 04_duplicate_records_analysis.png
+│   │   ├── 05_cleaned_dataset.png
+│   │   ├── 06_business_kpis.png
+│   │   ├── 07_monthly_revenue_trend.png
+│   │   ├── 08_top_products_by_revenue.png
+│   │   ├── 09_country_revenue_analysis.png
+│   │   ├── 10_top_customers_by_revenue.png
+│   │   ├── 11_return_cancellation_analysis.png
+│   │   └── 12_business_insights_recommendations.png
+│   │
+│   ├── sql
+│   │   ├── 01_database_tables.png
+│   │   ├── 02_sales_row_count.png
+│   │   ├── 03_overall_business_kpis.png
+│   │   ├── 04_monthly_sales_performance.png
+│   │   ├── 05_top_10_customers.png
+│   │   ├── 06_customer_segmentation.png
+│   │   ├── 07_top_10_products.png
+│   │   ├── 08_top_products_by_country.png
+│   │   ├── 09_country_performance.png
+│   │   ├── 10_monthly_revenue_growth.png
+│   │   ├── 11_cancellation_analysis.png
+│   │   └── 12_cancellation_rate.png
+│   │
 │   └── powerbi
 │       ├── executive_overview.png
 │       ├── product_country_analysis.png
