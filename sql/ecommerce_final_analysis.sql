@@ -24,6 +24,8 @@ sum(Revenue) / count(Distinct InvoiceNo), 2
 ) as average_order_value
 from sales;
 
+
+
 -- =========================================
 -- 2. MONTHLY SALES PERFORMANCE
 -- =========================================
@@ -38,6 +40,7 @@ round(sum(Revenue) / count(Distinct InvoiceNo), 2
 from sales
 group by sales_year, sales_month
 order by sales_year, sales_month;
+
 
 -- =========================================
 -- 3. TOP CUSTOMERS
@@ -89,6 +92,7 @@ from customer_segments
 group by customer_segment
 order by segment_revenue desc;
 
+
 -- =========================================
 -- 5. TOP PRODUCTS
 -- =========================================
@@ -105,6 +109,9 @@ select StockCode, Description, total_quantity, total_revenue
 from product_sales
 order by total_revenue desc
 limit 10;
+
+
+
 
 -- =========================================
 -- 6. TOP PRODUCTS BY COUNTRY
@@ -132,6 +139,7 @@ from ranked_products
 where product_rank <= 3
 order by Country, product_rank;
 
+
 -- =========================================
 -- 7. COUNTRY PERFORMANCE
 -- =========================================
@@ -144,6 +152,7 @@ from sales
 group by Country
 order by total_revenue desc;
 -- This compares countries based on orders, customers, quantity, revenue
+
 
 -- =========================================
 -- 8. MONTHLY REVENUE GROWTH
@@ -175,6 +184,7 @@ from monthly_comparison
 order by sales_year, sales_month;
 -- The first month will show NULL for the previous month because there is no earlier month for comparison.
 
+
 -- =========================================
 -- 9. CANCELLATION ANALYSIS
 -- =========================================
@@ -187,6 +197,7 @@ count(distinct InvoiceNo) as total_quantity,
 sum(Revenue) as total_revenue
 from sales
 group by transaction_status;
+
 
 -- =====================================================
 -- 10. Cancellation Rate
