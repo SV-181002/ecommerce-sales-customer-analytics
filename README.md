@@ -39,9 +39,7 @@ The main objectives of this project are:
 
 ## Dataset Information
 
-The dataset contains e-commerce transaction records.
-
-Each row represents a product transaction made by a customer.
+**Source:** ___ (for example, the Online Retail dataset from Kaggle or the UCI Machine Learning Repository)
 
 ### Main Columns
 
@@ -297,13 +295,15 @@ The page also includes business recommendations based on the analysis.
 
 ---
 
-## Business Insights
+## Key Business Insights
 
-### Revenue Performance
-
-* Monthly revenue can be compared to identify high-performing and low-performing periods.
-* High-revenue periods can be used for promotional campaigns.
-* Low-performing periods can be analyzed to understand the reasons for reduced sales.
+- **Total revenue:** ___ from ___ orders and ___ customers
+- **Average order value:** ___
+- **Top country:** ___ generated ___ of total revenue
+- **Best month:** ___ had the highest revenue (___)
+- **Top product:** ___ generated the highest revenue (___)
+- **Cancellation rate:** ___% of transactions were cancelled
+- **Recommendation:** ___ (for example, run promotions in low-revenue months, or reward the top customers with loyalty offers)
 
 ### Product Performance
 
