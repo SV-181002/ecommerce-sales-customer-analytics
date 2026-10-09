@@ -1,4 +1,6 @@
 # E-Commerce Sales & Customer Analytics
+![Executive Overview Dashboard](screenshots/powerbi/executive_overview.png)
+![Customer Analysis](screenshots/powerbi/Customer_Analysis.png).
 
 ## Project Overview
 
